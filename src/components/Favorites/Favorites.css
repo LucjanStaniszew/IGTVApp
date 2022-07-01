@@ -1,0 +1,33 @@
+.cnt {
+    padding-top: 10px;
+}
+
+.fav {
+    color: white;
+    font-weight: bold;
+}
+
+.favs {
+    background-color: rgba(255, 255, 255, 0.700);
+    margin-right: 70%;
+    color: white;
+    font-weight: bold;
+}
+
+.btnr {
+    border-radius: 40px;
+    background-color: rgba(255, 255, 255, 0.300);
+    border: 1px solid black;
+}
+
+.btnr:hover {
+    border-radius: 40px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.btnr:active {
+    border-radius: 40px;
+    background-color: black;
+    border: 1px solid black;
+}

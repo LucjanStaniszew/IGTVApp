@@ -1,0 +1,49 @@
+.cnt {
+    padding-top: 10px;
+}
+
+.ser {
+    color: white;
+    font-weight: bold;
+}
+
+.movies{
+    background-color: rgba(255, 255, 255, 0.700);
+    margin-right: 70%;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.btn {
+    border-radius: 40px;
+    background-color: rgba(255, 255, 255, 0.300);
+    border: 1px solid black;
+}
+
+.btn:hover {
+    border-radius: 40px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.btn:active {
+    border-radius: 40px;
+    background-color: black;
+    border: 1px solid black;
+}
+
+.form-container {
+    display:flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.form-container button {
+    margin-left: 20px;
+}
+
+.label {
+    color: white;
+    font-weight: bold;
+    padding-right: 10px;
+}
