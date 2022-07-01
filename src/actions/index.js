@@ -17,14 +17,14 @@ export function removeMovieFavorite(payload) {
 
 export function getMovieDetail(payload) {
     return async function(dispatch) {
-      const response = await axios.get('http://www.omdbapi.com/?apikey=50c97352&i=' + payload)
+      const response = await axios.get('https://www.omdbapi.com/?apikey=50c97352&i=' + payload)
       dispatch({ type: GET_MOVIE_DETAIL, payload: response.data })
     }
   }
 
 export function getMovies(titulo) {
   return async function(dispatch) {
-    const response = await axios.get('http://www.omdbapi.com/?apikey=50c97352&s=' + titulo)
+    const response = await axios.get('https://www.omdbapi.com/?apikey=50c97352&s=' + titulo)
     dispatch({ type: GET_MOVIES, payload: response.data})
   }
 }
